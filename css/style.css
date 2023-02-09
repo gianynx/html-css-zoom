@@ -1,3 +1,16 @@
-body {
-    background-color: black;
+/* CSS general */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg: #000000;
+    --txt: #ffffff;
+    --footer: #222222;
+    --s_s: #4bc800;
+    --bg_e_m: #4a4a4a;
+    --e_m: #a62b1a;
 }
