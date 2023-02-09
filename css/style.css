@@ -14,3 +14,7 @@
     --bg_e_m: #4a4a4a;
     --e_m: #a62b1a;
 }
+
+body {
+    background-color: var(--bg);
+}
