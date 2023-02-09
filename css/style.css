@@ -46,6 +46,10 @@ body {
     border-radius: 2px;
 }
 
+.hover_header:hover {
+    background-color: var(--bg);
+}
+
 .btn {
     background-color: var(--bg_e_m);
     position: absolute;
@@ -112,6 +116,10 @@ body {
     padding-top: 15px;
 }
 
+.hover_icon:hover {
+    background-color: var(--bg_e_m);
+}
+
 .icon {
     font-size: 25px;
     padding-bottom: 4px;
@@ -138,6 +146,10 @@ body {
     text-align: center;
     line-height: 70px;
     font-size: 12px;
+}
+
+.hover_end:hover {
+    background-color: var(--footer);
 }
 
 .e_m {
