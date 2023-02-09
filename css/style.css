@@ -104,7 +104,7 @@ body {
 }
 
 .name_icon {
-    width: 6rem;
+    width: 4rem;
     height: 70px;
     text-align: center;
     font-size: 10px;
@@ -114,13 +114,21 @@ body {
 
 .icon {
     font-size: 25px;
-    padding-bottom: 5px;
+    padding-bottom: 4px;
     color: var(--txt);
 }
 
-.share_g {
-    width: 36rem;
+.green_i {
+    color: var(--s_s);
+}
+
+.participants {
+    width: 7rem;
     height: 70px;
+    text-align: center;
+    font-size: 10px;
+    color: var(--txt);
+    padding-top: 15px;
 }
 
 .end {
