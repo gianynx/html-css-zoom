@@ -26,7 +26,7 @@ body {
 
 /* CSS header */
 
-.container {
+.container_header {
     width: 100%;
     height: 70px;
     position: relative;
@@ -60,4 +60,29 @@ body {
 .a_btn {
     color: var(--txt);
     text-decoration: none;
+}
+
+/*CSS main*/
+
+.wrapper {
+    max-width: 90rem;
+    margin: 0 auto;
+}
+
+.box {
+    width: calc(90rem / 7 - 4.5px);
+    display: inline-block;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 4.4rem;
+    height: 1.8rem;
+    color: var(--txt);
+    font-size: 11px;
+    text-align: center;
+    line-height: 1.8rem;
 }
