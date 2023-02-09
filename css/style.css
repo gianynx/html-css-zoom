@@ -86,3 +86,11 @@ body {
     text-align: center;
     line-height: 1.8rem;
 }
+
+/*CSS footer*/
+
+.container_footer {
+    width: 100%;
+    height: 70px;
+    position: relative;
+}
